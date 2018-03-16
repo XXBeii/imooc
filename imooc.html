@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>慕课网-程序员的梦工厂</title>
+    <link rel="stylesheet" type="text/css" href="css/common.css">
+    <link rel="stylesheet" type="text/css" href="css/myStyle.css">
+</head>
+<body>
+<header>
+    <h1>test commit</h1>
+    <div class="header-container">
+        <!--logo-->
+        <div class="logo" id="logo">
+            <a href="https://www.imooc.com/" target="_self" title="首页">
+                <img src="https://www.imooc.com/static/img/index/logo.png"  title="慕课网">
+            </a>
+        </div>
+        <!--导航栏-->
+        <ul class="nav-item">
+            <li>
+                <a href="https://www.imooc.com/course/list">免费课程</a>
+            </li>
+            <li>
+                <a href="https://class.imooc.com/" class="program-nav">职业路径<span class="icn-new"></span></a>
+            </li>
+            <li>
+                <a href="https://coding.imooc.com/">实战</a>
+            </li>
+            <li>
+                <a href="https://www.imooc.com/wenda">猿问</a>
+            </li>
+            <li>
+                <a href="https://www.imooc.com/discovery">发现</a>
+            </li>
+        </ul>
+        <!--用户导航栏-->
+        <div class="login-area">
+            <ul class=" logined clearfix">
+                <!--下载APP-->
+                <li class="app-load">
+                    <a href="//www.imooc.com/mobile/app" class="login-area-appdown" target="_blank">下载APP</a>
+                </li>
+                <!--购物车-->
+                <li class="shop-card">
+                    <a href="//order0.imooc.com/pay/cart" class="shop-cart-icon" target="_blank">
+                        <span class="icon-shopping-cart js-endcart">
+                            <img src="img/icon-shooping-card.png">
+                        </span>
+                        <span>购物车</span>
+                        <span class="shooping-icon js-cart-num"></span>
+                    </a>
+                </li>
+                <!--提醒通知-->
+                <li class="remind_warp">
+                    <a href="//www.imooc.com/u/6404739/notices" class="remind_link" target="_blank">
+                        <span class="icon-notifi">
+                            <img src="img/icon-notifi.png">
+                        </span>
+                    </a>
+                </li>
+                <!--用户头像-->
+                <li class="set_btn user-card-box">
+                    <a href="//www.imooc.com/u/6404739" class="user-card-item js-header-avator" target="_self">
+                        <img src="//img2.mukewang.com/5a8199d40001260016001135-100-100.jpg">
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <!--搜索框-->
+        <div class="search-warp clearfix">
+            <!--建议图标-->
+            <div class="pa searchTags">
+                <a href="//class.imooc.com/sc/20" target="_blank">前端入门</a>
+                <a href="//class.imooc.com/sc/18" target="_blank">Java入门</a>
+                <a href="//class.imooc.com/sc/41" target="_blank">C</a>
+            </div>
+            <!--搜索输入框-->
+            <div class="search-area">
+                <form>
+                    <input class="search-input" type="text" autocomplete="off">
+                </form>
+            </div>
+            <!--搜索图标-->
+            <div class="showhide-search">
+                <img src="img/icon-search.png">
+            </div>
+        </div>
+    </div>
+</header>
+<main>
+    <!--<div class="bk"></div>-->
+    <!--轮播图框-->
+    <div class="bgfff banner-box">
+        <div class="g-banner pr">
+            <!--左侧菜单栏-->
+            <!--前端开发隐藏菜单-->
+            <div class="submenu a hide">
+                <div class="innerBox clearfix">
+                    <div class="subinnerBox l">
+                        <div class="cates-box">
+                            <div class="fe-base-box clearfix">
+                                <div class="banner-line">
+                                    <span class="bold mr10 1 small-title">基础</span>
+                                </div>
+                                <div class="tag-box l">
+                                    <a target="_blank" href="//www.imooc.com/course/list?c=html">HTML/CSS</a>
+                                    <a target="_blank" href="//www.imooc.com/course/list?c=javascript">JavaScript</a>
+                                    <a target="_blank" href="//www.imooc.com/course/list?c=jquery">jQuery</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="recomment-box"></div>
+            </div>
+            <!--<div class="menuwrap"></div>-->
+            <div class="menuContent">
+                <!--前端开发-->
+                <div class="item">
+                    <a href="//www.imooc.com/course/list?c=fe" target="_blank">
+                        <span class="group">前端开发</span>
+                        <i class="icon-right2">
+                            <img src="img/right.png">
+                        </i>
+                    </a>
+                </div>
+                <!--后端开发-->
+                <div class="item">
+                    <a href="//www.imooc.com/course/list?c=be" target="_blank">
+                        <span class="group">后端开发</span>
+                        <i class="icon-right2">
+                            <img src="img/right.png">
+                        </i>
+                    </a>
+                </div>
+                <!--移动开发-->
+                <div class="item">
+                    <a href="//www.imooc.com/course/list?c=mobile" target="_blank">
+                        <span class="group">移动开发</span>
+                        <i class="icon-right2">
+                            <img src="img/right.png">
+                        </i>
+                    </a>
+                </div>
+                <!--数据库-->
+                <div class="item">
+                    <a href="//www.imooc.com/course/list?c=data" target="_blank">
+                        <span class="group">数据库</span>
+                        <i class="icon-right2">
+                            <img src="img/right.png">
+                        </i>
+                    </a>
+                </div>
+                <!--云计算&大数据-->
+                <div class="item">
+                    <a href="//www.imooc.com/course/list?c=cb" target="_blank">
+                        <span class="group">云计算&大数据</span>
+                        <i class="icon-right2">
+                            <img src="img/right.png">
+                        </i>
+                    </a>
+                </div>
+                <!--运维&测试-->
+                <div class="item">
+                    <a href="//www.imooc.com/course/list?c=op" target="_blank">
+                        <span class="group">运维&测试</span>
+                        <i class="icon-right2">
+                            <img src="img/right.png">
+                        </i>
+                    </a>
+                </div>
+                <!--UI设计-->
+                <div class="item">
+                    <a href="//www.imooc.com/course/list?c=photo" target="_blank">
+                        <span class="group">UI设计</span>
+                        <i class="icon-right2">
+                            <img src="img/right.png">
+                        </i>
+                    </a>
+                </div>
+            </div>
+            <!--右侧图片部分-->
+            <div class="g-banner-content">
+                <!--轮播图-->
+                <div class="g-banner-box">
+                    <a target="_blank" href="//www.imooc.com/group/1?mc_marking=5d8c330624ec70b54e866e43350a2a7a&mc_channel=banner" class="click-help">
+                        <div class="banner-slide" style="visibility:hidden;">
+                            <img src="//img.mukewang.com/5a991b990001437809360316.jpg">
+                        </div>
+                    </a>
+                    <a target="_blank" href="//coding.imooc.com/class/187.html?mc_marking=32f08dda54c4c19ae908ff62fb57571b&mc_channel=banner" class="click-help">
+                        <div class="banner-slide" style="visibility:hidden;">
+                            <img src="//img.mukewang.com/5a9d2f6b0001056209360316.jpg">
+                        </div>
+                    </a>
+                    <a target="_blank" href="//coding.imooc.com/class/190.html?mc_marking=e58cdbc3539759f208f82ff347f4e390&mc_channel=banner" class="click-help">
+                        <div class="banner-slide" style="visibility:hidden;">
+                            <img src="//img.mukewang.com/5a9e297c00015b8009360316.jpg">
+                        </div>
+                    </a>
+                    <a target="_blank" href="//coding.imooc.com/class/180.html?mc_marking=018750765f256fd63799130f06fd89c2&mc_channel=banner" class="click-help">
+                        <div class="banner-slide" style="visibility:hidden;">
+                            <img src="//img.mukewang.com/5a8011a30001adc609360316.jpg">
+                        </div>
+                    </a>
+                    <a target="_blank" href="//coding.imooc.com/class/96.html?mc_marking=d7163aeee9a5eab550a14cc2b699c976&mc_channel=banner" class="click-help">
+                        <div class="banner-slide" style="visibility:hidden;">
+                            <img src="//img.mukewang.com/5a6f021d0001a83309360316.jpg">
+                        </div>
+                    </a>
+                    <a target="_blank" href="//coding.imooc.com/class/107.html?mc_marking=7a72c833ff9ae725588c7c13fe7d2f96&mc_channel=banner" class="click-help">
+                        <div class="banner-slide slide-active" style="visibility:hidden;">
+                            <img src="//img.mukewang.com/5a589abf0001505309360316.jpg">
+                        </div>
+                    </a>
+                    <div class="banner-dots">
+                        <span class=""></span>
+                        <span class=""></span>
+                        <span class=""></span>
+                        <span class=""></span>
+                        <span class=""></span>
+                        <span class=""></span>
+                    </div>
+                    <a href="javascript:;" class="banner-anchor prev icon-left2" title="上一张"></a>
+                    <a href="javascript:;" class="banner-anchor next icon-right2" title="下一张"></a>
+                    <div class="cb"></div>
+                </div>
+                <!--项目栏-->
+                <div class="path-banner clearfix">
+                    <a href="//class.imooc.com/?c=fe&amp;mc_marking=032475ea974e6e9bb1ee3f2caad1acb2&amp;mc_channel=L1" target="_blank">
+                        <i class="i-web"></i>
+                        <p class="tit">Web前端攻城狮</p>
+                        <p class="desc">互联网时代最火爆的技术</p>
+                    </a>
+                    <a href="//class.imooc.com/?c=java&amp;mc_marking=7540f1d4ea6181748df32c86d4112fdf&amp;mc_channel=L2" target="_blank">
+                        <i class="i-java"></i>
+                        <p class="tit">Java攻城狮</p>
+                        <p class="desc">健壮、安全、适用广泛</p>
+                    </a>
+                    <a href="//class.imooc.com/?c=android&amp;mc_marking=9f3ec9c2c8c0f823baf785125012b277&amp;mc_channel=L3" target="_blank">
+                        <i class="i-android"></i>
+                        <p class="tit">Android攻城狮</p>
+                        <p class="desc">移动设备市场份额第一</p>
+                    </a>
+                    <a href="//class.imooc.com/?c=php&amp;mc_marking=a0ae214050107d9a52522dc8ed0d7ad0&amp;mc_channel=L4" target="_blank" data-track="ljtj-1-2">
+                        <i class="i-php"></i>
+                        <p class="tit">PHP攻城狮</p>
+                        <p class="desc">世界上最好的语言：）</p>
+                    </a>
+                    <a href="//class.imooc.com/?c=ios&amp;mc_marking=286b51b2a8e40915ea9023c821882e74&amp;mc_channel=L5" target="_blank" data-track="ljtj-1-5">
+                        <i class="i-ios"></i>
+                        <p class="tit">iOS攻城狮</p>
+                        <p class="desc">可能是全球最好用的系统</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--实战推荐-->
+    <div class="bgfff">
+        <div class="container-types clearfix">
+            <h3 class="types-title">
+                <span class="tit-icon icon-shizhan-1 tit-icon1"></span>
+                <em>实</em>
+                /
+                <em>战</em>
+                /
+                <em>推</em>
+                /
+                <em>荐</em>
+                <span class="tit-icon icon-shizhan-r tit-icon-r"></span></h3>
+            <div class="types-content clearfix">
+                <div class="index-card-container course-card-container container">
+                    <a href="//coding.imooc.com/class/101.html?mc_marking=b587280c0c1c0e76c1092aa21406565a&mc_channel=syb6" class="course-card"target="_blank">
+                        <!--图片-->
+                        <div class="course-card-top hashadow">
+                            <img class="course-banner" src="//img1.mukewang.com/szimg/5909a1250001197e05400300.jpg">
+                            <div class="course-label">
+                                <label>Android</label>
+                            </div>
+                        </div>
+                        <!--介绍-->
+                        <div class="course-card-content">
+                            <h3 class="course-card-name">BAT大咖助力 全面升级Android面试</h3>
+                            <div class="clearfix course-card-bottom">
+                                <div class="course-card-info">
+                                    <span>实战</span>
+                                    <span>中级</span>
+                                    <span><i class="course-card-info-visitor"></i>511</span>
+                                    <span class="course-star-box">
+                                        <i class="icon-star on"></i>
+                                        <i class="icon-star on"></i>
+                                        <i class="icon-star on"></i>
+                                        <i class="icon-star on"></i>
+                                        <i class="icon-star on"></i>
+                                    </span>
+                                </div>
+                                <div class="course-card-price">￥399.0</div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="index-card-container course-card-container container">
+                    <a href="//coding.imooc.com/class/101.html?mc_marking=b587280c0c1c0e76c1092aa21406565a&mc_channel=syb6" class="course-card"target="_blank">
+                        <!--图片-->
+                        <div class="course-card-top hashadow">
+                            <img class="course-banner" src="//img1.mukewang.com/szimg/5909a1250001197e05400300.jpg">
+                            <div class="course-label">
+                                <label>Android</label>
+                            </div>
+                        </div>
+                        <!--介绍-->
+                        <div class="course-card-content">
+                            <h3 class="course-card-name">BAT大咖助力 全面升级Android面试</h3>
+                            <div class="clearfix course-card-bottom">
+                                <div class="course-card-info">
+                                    <span>实战</span>
+                                    <span>中级</span>
+                                    <span><i class="course-card-info-visitor"></i>511</span>
+                                    <span class="course-star-box">
+                                        <i class="icon-star on"></i>
+                                        <i class="icon-star on"></i>
+                                        <i class="icon-star on"></i>
+                                        <i class="icon-star on"></i>
+                                        <i class="icon-star on"></i>
+                                    </span>
+                                </div>
+                                <div class="course-card-price">￥399.0</div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="index-card-container course-card-container container">
+                    <a href="//coding.imooc.com/class/101.html?mc_marking=b587280c0c1c0e76c1092aa21406565a&mc_channel=syb6" class="course-card"target="_blank">
+                        <!--图片-->
+                        <div class="course-card-top hashadow">
+                            <img class="course-banner" src="//img1.mukewang.com/szimg/5909a1250001197e05400300.jpg">
+                            <div class="course-label">
+                                <label>Android</label>
+                            </div>
+                        </div>
+                        <!--介绍-->
+                        <div class="course-card-content">
+                            <h3 class="course-card-name">BAT大咖助力 全面升级Android面试</h3>
+                            <div class="clearfix course-card-bottom">
+                                <div class="course-card-info">
+                                    <span>实战</span>
+                                    <span>中级</span>
+                                    <span><i class="course-card-info-visitor"></i>511</span>
+                                    <span class="course-star-box">
+                                        <i class="icon-star on"></i>
+                                        <i class="icon-star on"></i>
+                                        <i class="icon-star on"></i>
+                                        <i class="icon-star on"></i>
+                                        <i class="icon-star on"></i>
+                                    </span>
+                                </div>
+                                <div class="course-card-price">￥399.0</div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="index-card-container course-card-container container">
+                    <a href="//coding.imooc.com/class/101.html?mc_marking=b587280c0c1c0e76c1092aa21406565a&mc_channel=syb6" class="course-card"target="_blank">
+                        <!--图片-->
+                        <div class="course-card-top hashadow">
+                            <img class="course-banner" src="//img1.mukewang.com/szimg/5909a1250001197e05400300.jpg">
+                            <div class="course-label">
+                                <label>Android</label>
+                            </div>
+                        </div>
+                        <!--介绍-->
+                        <div class="course-card-content">
+                            <h3 class="course-card-name">BAT大咖助力 全面升级Android面试</h3>
+                            <div class="clearfix course-card-bottom">
+                                <div class="course-card-info">
+                                    <span>实战</span>
+                                    <span>中级</span>
+                                    <span><i class="course-card-info-visitor"></i>511</span>
+                                    <span class="course-star-box">
+                                        <i class="icon-star on"></i>
+                                        <i class="icon-star on"></i>
+                                        <i class="icon-star on"></i>
+                                        <i class="icon-star on"></i>
+                                        <i class="icon-star on"></i>
+                                    </span>
+                                </div>
+                                <div class="course-card-price">￥399.0</div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="index-card-container course-card-container container">
+                    <a href="//coding.imooc.com/class/101.html?mc_marking=b587280c0c1c0e76c1092aa21406565a&mc_channel=syb6" class="course-card"target="_blank">
+                        <!--图片-->
+                        <div class="course-card-top hashadow">
+                            <img class="course-banner" src="//img1.mukewang.com/szimg/5909a1250001197e05400300.jpg">
+                            <div class="course-label">
+                                <label>Android</label>
+                            </div>
+                        </div>
+                        <!--介绍-->
+                        <div class="course-card-content">
+                            <h3 class="course-card-name">BAT大咖助力 全面升级Android面试</h3>
+                            <div class="clearfix course-card-bottom">
+                                <div class="course-card-info">
+                                    <span>实战</span>
+                                    <span>中级</span>
+                                    <span><i class="course-card-info-visitor"></i>511</span>
+                                    <span class="course-star-box">
+                                        <i class="icon-star on"></i>
+                                        <i class="icon-star on"></i>
+                                        <i class="icon-star on"></i>
+                                        <i class="icon-star on"></i>
+                                        <i class="icon-star on"></i>
+                                    </span>
+                                </div>
+                                <div class="course-card-price">￥399.0</div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="index-card-container course-card-container container">
+                    <a href="//coding.imooc.com/class/101.html?mc_marking=b587280c0c1c0e76c1092aa21406565a&mc_channel=syb6" class="course-card"target="_blank">
+                        <!--图片-->
+                        <div class="course-card-top hashadow">
+                            <img class="course-banner" src="//img1.mukewang.com/szimg/5909a1250001197e05400300.jpg">
+                            <div class="course-label">
+                                <label>Android</label>
+                            </div>
+                        </div>
+                        <!--介绍-->
+                        <div class="course-card-content">
+                            <h3 class="course-card-name">BAT大咖助力 全面升级Android面试</h3>
+                            <div class="clearfix course-card-bottom">
+                                <div class="course-card-info">
+                                    <span>实战</span>
+                                    <span>中级</span>
+                                    <span><i class="course-card-info-visitor"></i>511</span>
+                                    <span class="course-star-box">
+                                        <i class="icon-star on"></i>
+                                        <i class="icon-star on"></i>
+                                        <i class="icon-star on"></i>
+                                        <i class="icon-star on"></i>
+                                        <i class="icon-star on"></i>
+                                    </span>
+                                </div>
+                                <div class="course-card-price">￥399.0</div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="index-card-container course-card-container container">
+                    <a href="//coding.imooc.com/class/101.html?mc_marking=b587280c0c1c0e76c1092aa21406565a&mc_channel=syb6" class="course-card"target="_blank">
+                        <!--图片-->
+                        <div class="course-card-top hashadow">
+                            <img class="course-banner" src="//img1.mukewang.com/szimg/5909a1250001197e05400300.jpg">
+                            <div class="course-label">
+                                <label>Android</label>
+                            </div>
+                        </div>
+                        <!--介绍-->
+                        <div class="course-card-content">
+                            <h3 class="course-card-name">BAT大咖助力 全面升级Android面试</h3>
+                            <div class="clearfix course-card-bottom">
+                                <div class="course-card-info">
+                                    <span>实战</span>
+                                    <span>中级</span>
+                                    <span><i class="course-card-info-visitor"></i>511</span>
+                                    <span class="course-star-box">
+                                        <i class="icon-star on"></i>
+                                        <i class="icon-star on"></i>
+                                        <i class="icon-star on"></i>
+                                        <i class="icon-star on"></i>
+                                        <i class="icon-star on"></i>
+                                    </span>
+                                </div>
+                                <div class="course-card-price">￥399.0</div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="index-card-container course-card-container container">
+                    <a href="//coding.imooc.com/class/101.html?mc_marking=b587280c0c1c0e76c1092aa21406565a&mc_channel=syb6" class="course-card"target="_blank">
+                        <!--图片-->
+                        <div class="course-card-top hashadow">
+                            <img class="course-banner" src="//img1.mukewang.com/szimg/5909a1250001197e05400300.jpg">
+                            <div class="course-label">
+                                <label>Android</label>
+                            </div>
+                        </div>
+                        <!--介绍-->
+                        <div class="course-card-content">
+                            <h3 class="course-card-name">BAT大咖助力 全面升级Android面试</h3>
+                            <div class="clearfix course-card-bottom">
+                                <div class="course-card-info">
+                                    <span>实战</span>
+                                    <span>中级</span>
+                                    <span><i class="course-card-info-visitor"></i>511</span>
+                                    <span class="course-star-box">
+                                        <i class="icon-star on"></i>
+                                        <i class="icon-star on"></i>
+                                        <i class="icon-star on"></i>
+                                        <i class="icon-star on"></i>
+                                        <i class="icon-star on"></i>
+                                    </span>
+                                </div>
+                                <div class="course-card-price">￥399.0</div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="index-card-container course-card-container container">
+                    <a href="//coding.imooc.com/class/101.html?mc_marking=b587280c0c1c0e76c1092aa21406565a&mc_channel=syb6" class="course-card"target="_blank">
+                        <!--图片-->
+                        <div class="course-card-top hashadow">
+                            <img class="course-banner" src="//img1.mukewang.com/szimg/5909a1250001197e05400300.jpg">
+                            <div class="course-label">
+                                <label>Android</label>
+                            </div>
+                        </div>
+                        <!--介绍-->
+                        <div class="course-card-content">
+                            <h3 class="course-card-name">BAT大咖助力 全面升级Android面试</h3>
+                            <div class="clearfix course-card-bottom">
+                                <div class="course-card-info">
+                                    <span>实战</span>
+                                    <span>中级</span>
+                                    <span><i class="course-card-info-visitor"></i>511</span>
+                                    <span class="course-star-box">
+                                        <i class="icon-star on"></i>
+                                        <i class="icon-star on"></i>
+                                        <i class="icon-star on"></i>
+                                        <i class="icon-star on"></i>
+                                        <i class="icon-star on"></i>
+                                    </span>
+                                </div>
+                                <div class="course-card-price">￥399.0</div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="index-card-container course-card-container container">
+                    <a href="//coding.imooc.com/class/101.html?mc_marking=b587280c0c1c0e76c1092aa21406565a&mc_channel=syb6" class="course-card"target="_blank">
+                        <!--图片-->
+                        <div class="course-card-top hashadow">
+                            <img class="course-banner" src="//img1.mukewang.com/szimg/5909a1250001197e05400300.jpg">
+                            <div class="course-label">
+                                <label>Android</label>
+                            </div>
+                        </div>
+                        <!--介绍-->
+                        <div class="course-card-content">
+                            <h3 class="course-card-name">BAT大咖助力 全面升级Android面试</h3>
+                            <div class="clearfix course-card-bottom">
+                                <div class="course-card-info">
+                                    <span>实战</span>
+                                    <span>中级</span>
+                                    <span><i class="course-card-info-visitor"></i>511</span>
+                                    <span class="course-star-box">
+                                        <i class="icon-star on"></i>
+                                        <i class="icon-star on"></i>
+                                        <i class="icon-star on"></i>
+                                        <i class="icon-star on"></i>
+                                        <i class="icon-star on"></i>
+                                    </span>
+                                </div>
+                                <div class="course-card-price">￥399.0</div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+<script type="text/javascript" src="js/banner.js"></script>
+</body>
+</html>

@@ -1,0 +1,38 @@
+body, html {
+    font: 14px/1.5 "PingFang SC","微软雅黑","Microsoft YaHei",Helvetica,"Helvetica Neue",Tahoma,Arial,sans-serif;
+}
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, button, textarea, p, blockquote, th, td {
+    margin: 0;
+    padding: 0;
+}
+div{
+    background-size: cover;
+}
+ol,ul{
+    list-style: none;
+}
+a,:link,:visited,ins{
+    text-decoration: none;
+}
+a,button,input{
+    outline: 0;
+}
+fieldset,img{
+    border: 0;
+}
+p{
+    /*允许单词内换行*/
+    word-break: break-all;
+}
+address,caption,cite,code,dfn,em,strong,th,var,optgroup{
+    font-style: normal;
+    font-weight: 400;
+}
+h1,h2,h3,h4,h5,h6{
+    font-size: 100%;
+    font-weight: 400;
+}
+h3{
+    font-size: 16px;
+    line-height: 32px;
+}
